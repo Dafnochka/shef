@@ -90,10 +90,13 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  height: 80px;
 }
 .container footer button {
-  width: 80%;
-  margin: 0 10% 50px;
+  width: 350px;
   height: 46px;
   font-size: 18px;
   background-color: #fdda24;
