@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+.container header {
+  position: fixed;
+  background: white;
+  width: 100%;
+}
+.container header .title {
+  font-weight: 700;
+  font-stretch: 150%;
+  font-size: 25px;
+  padding-top: 40px;
+  margin-left: 25px;
+}
+.container header .title i {
+  position: relative;
+  top: -2px;
+  left: 5px;
+}
+.container header ul.menu {
+  display: flex;
+  margin: 0;
+  padding: 0 0 0 10px;
+  width: 100%;
+  overflow: hidden;
+}
+.container header ul.menu li {
+  list-style-type: none;
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 15px 0;
+  padding: 10px 5px;
+  color: grey;
+  box-sizing: border-box;
+}
+.container header ul.menu .first {
+  color: black;
+  border-bottom: red 3px solid;
+}
+.container main {
+  padding: 100px 0;
+  background: #ebebeb;
+  width: 100%;
+}
+.container main .card {
+  background: white;
+  box-shadow: 0 0 5px rgba(122, 122, 122, 0.5);
+}
+.container main .card img {
+  width: 100%;
+}
+.container main .card .text {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container main .card .text .name {
+  font-size: 120%;
+}
+.container main .card .text .weight,
+.container main .card .text .time {
+  color: grey;
+}
+.container main .card .counter {
+  margin: 10px auto;
+  width: fit-content;
+}
+.container main .card .counter button {
+  font-size: 18px;
+  background-color: #fdda24;
+  border: none;
+}
+.container main .card .counter input {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+.container footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.container footer button {
+  width: 80%;
+  margin: 0 10% 50px;
+  height: 46px;
+  font-size: 18px;
+  background-color: #fdda24;
+  border-radius: 10px;
+  border: none;
+}
